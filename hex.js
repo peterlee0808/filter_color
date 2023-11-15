@@ -12,6 +12,9 @@ color.textContent = hexColor;
 document.body.style.backgroundColor = hexColor;
 })
 
+// setInterval
+
+
 function getRandomNumber(){
     return Math.floor(Math.random()*hex.length);
 }
