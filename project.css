@@ -1,4 +1,5 @@
 /* transitions */
+
 *,
 ::after,
 ::before {
@@ -12,6 +13,7 @@ body {
   color: var(--clr-grey-1);
   line-height: 1.5;
   font-size: 0.875rem;
+  transition: 0.5s ease-in;
 }
 ul {
   list-style-type: none;
